@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-int main(){
-    
+int main()
+{
+
   int numeros[5];
   int i;
 
-  for(i = 0; i < 5; i++) {
+  for (i = 0; i < 5; i++)
+  {
     printf("Digite um numero: ");
     scanf("%d", &numeros[i]);
-  }  
+  }
 
   printf("Numeros digitados: \n");
 
@@ -16,7 +18,6 @@ int main(){
   {
     printf("%d\n", numeros[i]);
   }
-  
-  
-    return 0;
+
+  return 0;
 }

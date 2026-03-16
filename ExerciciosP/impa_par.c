@@ -1,15 +1,19 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int numero;
 
     printf("Digite um numero: ");
     scanf("%d", &numero);
 
-    if (numero % 2 == 0) {
+    if (numero % 2 == 0)
+    {
         printf("O numero e PAR\n");
-    } else {
+    }
+    else
+    {
         printf("O numero e IMPAR\n");
     }
 

@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main(){
-    
+int main()
+{
+
   char nome[15];
   float nota1, nota2, media;
 
@@ -10,7 +11,7 @@ int main(){
 
   printf("Digite a primeira nota: ");
   scanf("%f", &nota1);
-  
+
   printf("Digite a segunda nota: ");
   scanf("%f", &nota2);
 
@@ -22,15 +23,15 @@ int main(){
   if (media >= 6)
   {
     printf("Status: Aprovado\n");
-  } 
-  else if (media >= 5) 
+  }
+  else if (media >= 5)
   {
     printf("Status: Recuperacao\n");
-  } 
-  else 
+  }
+  else
   {
     printf("Status: Reprovado\n");
   }
-  
+
   return 0;
 }
