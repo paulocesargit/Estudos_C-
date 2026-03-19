@@ -14,7 +14,7 @@ int main()
 
     novoSalario = salario + (salario * percentual / 100);
 
-    printf("O seu salario novo e: %2.f", novoSalario);
+    printf("O seu salario novo e: %.3f", novoSalario);
 
     return 0;
 }
