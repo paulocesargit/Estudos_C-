@@ -3,8 +3,7 @@
 int main()
 {
 
-  int numeros[5];
-  int i, maior;
+  int i, maior, numeros[5];
 
   for (i = 0; i < 5; i++)
   {
