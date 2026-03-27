@@ -22,9 +22,9 @@ int main()
 
     printf("O total dos votos e: %d\n", todosVotos);
 
-    printf("Votos em branco: %.2f%%\n", brancos_calculo);
-    printf("votos nulo: %.2f%%\n", nulos_calculo);
-    printf("Votos validos %.2f%%\n", validos_calculo);
+    printf("Votos em branco: %f%%\n", brancos_calculo);
+    printf("votos nulo: %f%%\n", nulos_calculo);
+    printf("Votos validos %f%%\n", validos_calculo);
 
     return 0;
 }
