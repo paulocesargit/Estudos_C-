@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int num, maior = 0;
 
-    printf("Digite numeros positivos (0 para parar):\n");
-
-    scanf("%d", &num);
-
-    while(num != 0) {
-        if(num > maior) {
+    printf("Digite numeros:");
+    do
+    {
+        if (num > maior)
+        {
             maior = num;
         }
         scanf("%d", &num);
-    }
+    } while (num != 0);
 
     printf("Maior numero: %d\n", maior);
 
