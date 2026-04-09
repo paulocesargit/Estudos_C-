@@ -1,22 +1,20 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
+    int num, maior = 0;
 
-    int numero, maior = 1;
+    printf("Digite numeros positivos (0 para parar):\n");
 
-    do
-    {
-        printf("Digite um numero: ");
-        scanf("%d", &numero);
+    scanf("%d", &num);
 
-        if (numero > maior)
-        {
-            maior = numero;
-            printf("O maior numero e %d", maior);
+    while(num != 0) {
+        if(num > maior) {
+            maior = num;
         }
+        scanf("%d", &num);
+    }
 
-    } while (numero != 0);
+    printf("Maior numero: %d\n", maior);
 
     return 0;
 }
