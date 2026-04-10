@@ -2,8 +2,7 @@
 
 int main()
 {
-    int numero1, numero2;
-    int produto = 0;
+    int numero1, numero2, i, produto = 0;
 
     printf("Digite o primeiro numero: ");
     scanf("%d", &numero1);
@@ -11,9 +10,9 @@ int main()
     printf("Digite o segundo numero: ");
     scanf("%d", &numero2);
 
-    for (int i = 0; i < numero2; i++)
+    for (i = 0; i < numero2; i++)
     {
-        produto = numero1 + numero1;
+        produto = produto + numero1;
     }
 
     printf("Produto = %d\n", produto);

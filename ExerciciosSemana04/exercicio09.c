@@ -5,16 +5,10 @@ int main()
     int num, i = 0;
     float media, soma = 0;
 
-    while (1)
+    while (num != 0)
     {
         printf("Digite um numero: ");
         scanf("%d", &num);
-
-        if (num == 0)
-        {
-            break;
-        }
-
         if (num % 2 == 0)
         {
             soma = soma + num;
