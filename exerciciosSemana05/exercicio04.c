@@ -15,3 +15,21 @@ int main() {
 
     return 0;
 }
+
+/* #include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Digite um numero positivo: ");
+    scanf("%d", &num);
+
+    while(num < 0) {
+        printf("Numero invalido. Digite novamente: ");
+        scanf("%d", &num);
+    }
+
+    printf("Numero aceito!\n");
+
+    return 0;
+} */
