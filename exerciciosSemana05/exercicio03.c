@@ -1,27 +1,15 @@
 #include <stdio.h>
 
-int main()
-{
-    int num = 0;
+int main() {
+    int i = 1, cont = 0;
 
-    while (num <= 50)
-    {
+    while(i <= 50) {
+        if(i % 2 == 0)
+            cont++;
+        i++;
+    }
 
-        if (num % 2 == 0)
-        {
+    printf("Quantidade de pares: %d\n", cont);
 
-            printf("Os numeros pares: %d\n", num);
-            num++;
-        }
-        }
     return 0;
 }
-/*umero % 2 == 0)
-    {
-        printf("O numero e PAR\n");
-    }
-    else
-    {
-        printf("O numero e IMPAR\n");
-    }
-*/
