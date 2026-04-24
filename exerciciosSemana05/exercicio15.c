@@ -76,7 +76,7 @@ int main()
         printf("A menor audiencia e da RedeTV\n");
     }
 
-    printf("O percentual dos canais!");
+    printf("O percentual dos canais!\n");
 
     pglobo = (globo / total) * 100;
     psbt = (sbt / total) * 100;

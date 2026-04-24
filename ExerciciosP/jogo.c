@@ -30,6 +30,12 @@ int main()
             break;
         }
 
+        if (ouro >= 150)
+        {
+            printf("\nVoce bateu a meta! %d\n", energia);
+            break;
+        }
+
         printf("\n===== MENU =====\n");
         printf("1 - Descansar\n");
         printf("2 - Ver Status\n");

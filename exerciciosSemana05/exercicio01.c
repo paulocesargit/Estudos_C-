@@ -1,3 +1,5 @@
+//  Escreva um programa que imprima os números de 1 a 10 usando while.
+
 #include <stdio.h>
 
 int main()

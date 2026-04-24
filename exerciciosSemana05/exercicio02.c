@@ -1,3 +1,5 @@
+//  Faça um programa que leia um número e exiba a tabuada dele (de 1 a 10) usando while.
+
 #include <stdio.h>
 
 int main()
