@@ -5,8 +5,6 @@ int main()
 
     float valorPrestacoes, totalPrestacoes, saldoRestante, pagas, restante;
 
-    printf("Digite oq deseja fazer:\n");
-
     printf("coloque o total das prestaçoes: ");
     scanf("%f", &totalPrestacoes);
 

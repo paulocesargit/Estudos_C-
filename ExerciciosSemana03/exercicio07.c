@@ -10,12 +10,14 @@ int main()
 
     if (salario < 1000)
     {
-        novoS = salario * 1.10;
+        novoS = salario + (salario * 0.10);
     }
     else
     {
-        novoS = salario * 1.05;
+        novoS = salario + (salario * 0.05);
     }
+
+    printf("Seu novo salario: %.2f", novoS);
 
     return 0;
 }

@@ -3,7 +3,7 @@
 int main()
 {
 
-    int numero1, numero2, numero3, maior = 0;
+    int numero1, numero2, numero3;
 
     printf("Digite o primeiro numero: ");
     scanf("%d", &numero1);
@@ -14,19 +14,18 @@ int main()
     printf("Digite o terceiro numero: ");
     scanf("%d", &numero3);
 
-    maior = numero1;
-
-    if (numero2 > maior)
+    if (numero1 > numero2 && numero1 > numero3)
     {
-        maior = numero2;
+        printf("O numero 1 e maior");
     }
-
-    if (numero3 > maior)
+    else if (numero2 > numero3)
     {
-        maior = numero3;
+        printf("O numero 2 e o maior");
     }
-
-    printf("O maior numero e %d\n", maior);
+    else
+    {
+        printf("O numero 3 e o maior");
+    }
 
     return 0;
 }

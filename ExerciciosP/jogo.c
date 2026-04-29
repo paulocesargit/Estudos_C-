@@ -36,7 +36,7 @@ int main()
             break;
         }
 
-        printf("\n===== MENU =====\n");
+        printf("\n MENU \n");
         printf("1 - Descansar\n");
         printf("2 - Ver Status\n");
         printf("3 - Explorar\n");
@@ -147,7 +147,7 @@ int main()
             break;
         }
         case 2:
-            printf("\n--- STATUS ---\n");
+            printf("\n STATUS \n");
             printf("Jogador: %s\n", jogador);
             printf("Energia: %d\n", energia);
             printf("Ouro: %d\n", ouro);

@@ -3,9 +3,9 @@
 int main()
 {
 
-  int i, maior, numeros[5];
+  int i, maior, numeros[10];
 
-  for (i = 0; i < 5; i++)
+  for (i = 0; i < 10; i++)
   {
     printf("Digite um numero: ");
     scanf("%d", &numeros[i]);
