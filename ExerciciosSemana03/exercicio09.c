@@ -8,11 +8,11 @@ int main()
     printf("Digite seu sexo M ou F: ");
     scanf("%c", &sexo);
 
-    if (sexo == 'M' && sexo == 'm')
+    if (sexo == 'M' || sexo == 'm')
     {
         printf("Masculino");
     }
-    else if (sexo == 'F' && sexo == 'f')
+    else if (sexo == 'F' || sexo == 'f')
     {
         printf("Feminino");
     }

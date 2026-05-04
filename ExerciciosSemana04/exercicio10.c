@@ -40,11 +40,11 @@ int main()
     else
         mediaF = 0;
 
-    percentualM = (psm / 15) * 100;
+    percentualM = (psm * 100.0) / 15;
 
     printf("Media de idade (mulheres excelente): %.2f\n", mediaF);
     printf("Percentual homens que nao gostaram: %.2f%%\n", percentualM);
-    printf("Pessoas que esperavam mais: %d\n", qtdsm);
+    printf("Pessoas que esperavam mais: %.2f\n", qtdsm);
 
     return 0;
 }

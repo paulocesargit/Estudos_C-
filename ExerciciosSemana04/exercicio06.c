@@ -2,15 +2,15 @@
 
 int main()
 {
-    int numeros, soma, i = 1;
+    int numeros, soma = 0, i;
 
-    for (i = 0; i <= 50; i++)
+    for (i = 0; i < 50; i++)
     {
         printf("Digite um numero: ");
         scanf("%d", &numeros);
         if (numeros % 2 == 1)
         {
-            soma = numeros + numeros;
+            soma += numeros;
         }
     }
 

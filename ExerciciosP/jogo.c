@@ -50,14 +50,10 @@ int main()
         {
             int energiaAntes = energia;
 
-            if (energia > 100)
-            {
-                energia = 100;
-            }
-
-            if (energia >= 100)
+            if (energia >= 100 && energia > 100)
             {
                 printf("Sua energia ta cheia!\n");
+                energia = 100;
             }
             else
             {
