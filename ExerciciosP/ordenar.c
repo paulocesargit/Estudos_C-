@@ -2,33 +2,32 @@
 
 int main()
 {
+    int vetor[5] = {5, 4, 2, 3, 9};
+    int i, j, posMenor, temp;
 
-    int i, j, temp, vetor[4];
-
-    for (i = 0; i < 4; i++)
+    // Selection Sort
+    for(i = 0; i < 4; i++)
     {
-        printf("Digite um numero: ");
-        scanf("%d", &vetor[i]);
-    }
+        posMenor = i;
 
-    for (i = 0; i < 3; i++)
-    {
-        for (j = 0; j < 4; j++)
+        // procura o menor elemento
+        for(j = i + 1; j < 5; j++)
         {
-
-            if (vetor[i] < vetor[j])
-            {
-                temp = vetor[i];
-                vetor[i] = vetor[j];
-                vetor[j] = temp;
-            }
+            if(vetor[j] < vetor[posMenor])
+                posMenor = j;
         }
+
+        // troca posições
+        temp = vetor[i];
+        vetor[i] = vetor[posMenor];
+        vetor[posMenor] = temp;
     }
 
-    for (i = 0; i < 4; i++)
-    {
-        printf("%d", vetor[i]);
-    }
+    // mostrar resultado
+    printf("Vetor ordenado:\n");
+
+    for(i = 0; i < 5; i++)
+        printf("%d ", vetor[i]);
 
     return 0;
 }
