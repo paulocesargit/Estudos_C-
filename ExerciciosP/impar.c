@@ -2,16 +2,15 @@
 
 int main()
 {
+    int n = 7, impar = 1;
 
-    int i;
-
-    for (i = 1; i <= 5; i++)
+    for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= i; j++)
         {
-            printf("%d", i);
+            printf("%3d", impar);
+            impar += 2;
         }
-
         printf("\n");
     }
 
