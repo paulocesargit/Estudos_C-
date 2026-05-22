@@ -2,7 +2,7 @@
 
 int main()
 {
-    int v[10], aux = 0;
+    int v[10];
 
     for (int i = 0; i < 10; i++)
     {
@@ -10,23 +10,16 @@ int main()
         scanf("%d", &v[i]);
     }
 
+    printf("Vetor original \n");
     for (int i = 0; i < 10; i++)
     {
-        for (int j = i + 1; j < 10; j++)
-        {
-
-            if (v[i] > v[j])
-            {
-                aux = v[i];
-                v[i] = v[j];
-                v[j] = aux;
-            }
-        }
+        printf("%d ", v[i]);
     }
 
-    for (int i = 0; i < 10; i++)
+    printf("\nVetor invertido \n");
+    for (int i = 9; i >= 0; i--)
     {
-        printf("%d", v[i]);
+        printf("%d ", v[i]);
     }
 
     return 0;
