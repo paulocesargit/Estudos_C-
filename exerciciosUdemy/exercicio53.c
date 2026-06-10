@@ -83,7 +83,7 @@ int main()
         switch (opcao)
         {
         case 1:
-            printf("Numero do cliente: ");
+            printf("Numero do cliente : ");
             scanf("%d", &numero);
             inserirCliente(numero);
             break;
